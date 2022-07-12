@@ -1,0 +1,50 @@
+.section{
+   padding: 8rem 0 7rem 0;
+   text-align: center;
+}
+
+.section-heading,
+.section-description{
+   margin-bottom: 1.2rem;
+}
+
+.section-image{
+   position: relative;
+   max-width: 80%;
+   padding: 3rem 0 -12rem 0;
+}
+
+.section-a{
+   background: url("../Image/back-2.jpg") ;
+   background-size: cover;
+   color: #fff;
+   border: 0;
+   padding: 5rem;
+}
+
+.section-a .fa{
+   font-size: 40px;
+   margin-bottom: 0.5rem;
+   color: #bdebff;
+}
+
+.section-a h5{
+   margin-bottom: 0.3rem;
+}
+
+.section-c{
+   background: url("../Image/back-1.jpg") ;
+   background-size: cover;
+   color: #fff;
+}
+
+.section-c .section-description{
+   margin-bottom: 0.5rem;
+}
+
+@media (min-width:550px) {
+   .showcase-heading{
+      font-size: 3rem;
+      padding-top: 11rem;
+   }
+}
